@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="aggregazione delle parti nel main">
+    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="realizzazione zscore pesata, e i ratei, e il riskfree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finale.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/finale.ipynb" afterDir="false" />
     </list>
@@ -50,6 +50,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="commit di tutti i file del gruppo" />
     <MESSAGE value="aggregazione delle parti nel main" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggregazione delle parti nel main" />
+    <MESSAGE value="realizzazione zscore pesata, e i ratei, e il riskfree" />
+    <option name="LAST_COMMIT_MESSAGE" value="realizzazione zscore pesata, e i ratei, e il riskfree" />
   </component>
 </project>
