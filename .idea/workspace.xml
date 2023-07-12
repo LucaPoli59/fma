@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="commit di tutti i file del gruppo">
-      <change afterPath="$PROJECT_DIR$/finale.ipynb" afterDir="false" />
+    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="aggregazione delle parti nel main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_raw_extraction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_raw_extraction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parte_uno_copy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/parte_uno_copy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finale.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/finale.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +29,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -52,6 +49,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="commit di tutti i file del gruppo" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit di tutti i file del gruppo" />
+    <MESSAGE value="aggregazione delle parti nel main" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggregazione delle parti nel main" />
   </component>
 </project>
