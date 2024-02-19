@@ -54,6 +54,7 @@ strs_stats_table = AgGrid(rowData=strs_stats.iloc[:, :-1].reset_index().to_dict(
                                          "wrapHeaderText": True, "autoHeaderHeight": True}, id='strs_stats_table',
                           style={'height': '600px'}, dashGridOptions={'rowSelection': 'multiple'},
                           columnSize='responsiveSizeToFit', className="ag-theme-alpine custom-compact")
+multi_cols = strs_rtn.columns[-3:].values.tolist()
 
 stats_summary = make_subplots(rows=4, cols=3, subplot_titles=strs_stats.columns[:-1], shared_xaxes=True)
 for i in range(len(strs_stats.columns[:-1])):
@@ -61,6 +62,7 @@ for i in range(len(strs_stats.columns[:-1])):
                             row=int(i / 3) + 1, col=(i % 3) + 1)
 
 stats_summary.update_layout(height=1000, showlegend=False, hovermode="x unified")
+
 
 app.layout = dbc.Container(fluid=True, children=[dbc.Container(className="fluid", children=[
 
@@ -89,17 +91,18 @@ app.layout = dbc.Container(fluid=True, children=[dbc.Container(className="fluid"
     html.Div(className="my-3", children=dbc.Table.from_dataframe(multivariate_input.reset_index(), bordered=True,
                                                                  hover=True, responsive=True, striped=True)),
     html.Center(html.H5("Logarithmic returns")),
-    dcc.Graph(figure=px.line(strs_rtn.iloc[:, -4:], x=strs_rtn.index, y=strs_rtn.columns[-4:],
+    dcc.Graph(figure=px.line(strs_rtn[['benchmark'] + multi_cols], x=strs_rtn.index, y=['benchmark'] + multi_cols,
                              labels={"value": "Return (%)", "variable": "Strategy", 'date': 'Date'},
                              ).update_xaxes(rangeslider_visible=True).update_layout(hovermode="x unified")),
 
     html.Center(html.H5("Compound returns")),
-    dcc.Graph(figure=px.line(strs_rtn_com.iloc[:, -4:], x=strs_rtn_com.index, y=strs_rtn_com.columns[-4:],
+    dcc.Graph(figure=px.line(strs_rtn_com[['benchmark'] + multi_cols], x=strs_rtn_com.index,
+                             y=['benchmark'] + multi_cols,
                              labels={"value": "Return (%)", "variable": "Strategy", 'date': 'Date'},
                              ).update_xaxes(rangeslider_visible=True).update_layout(hovermode="x unified")),
 
     html.Center(html.H5("Information ratio", className="my-4")),
-    dcc.Graph(figure=px.bar(strs_stats.iloc[-3:], x=strs_stats.iloc[-3:].index, y="Information Ratio",
+    dcc.Graph(figure=px.bar(strs_stats.loc[multi_cols], x=strs_stats.loc[multi_cols].index, y="Information Ratio",
                             color="Return Total (%)", color_continuous_scale=px.colors.sequential.thermal,
                             hover_data=["Return Total (%)"])),
 
