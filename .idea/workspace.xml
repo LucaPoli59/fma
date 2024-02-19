@@ -4,18 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="fixing">
-      <change beforePath="$PROJECT_DIR$/.idea/progetto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/progetto.iml" afterDir="false" />
+    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="consegna">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/Report.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/NACC_state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/RSI_state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/WCE_state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/bench_crtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/bench_lrtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/bench_stats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/muli_info_ratio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/multi_ac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/multi_stats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/sequential_state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/uni_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/uni_ac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/uni_info_ratio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/uni_stats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/zscore_simple_state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/plot/zscore_weighted_state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relazione/report.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/alpha.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/alpha.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/alpha_com.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/alpha_com.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/benchmark_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/benchmark_stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/ports.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/ports.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/rtn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/rtn.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/rtn_com.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/rtn_com.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/strs_res_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/strs_res_stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/final.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +125,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -130,6 +154,8 @@
     <MESSAGE value="fix shift e preparazione codice completata" />
     <MESSAGE value="add docs" />
     <MESSAGE value="fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing" />
+    <MESSAGE value="fixed alpha error" />
+    <MESSAGE value="consegna" />
+    <option name="LAST_COMMIT_MESSAGE" value="consegna" />
   </component>
 </project>
