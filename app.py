@@ -44,7 +44,7 @@ strs_stats = strs_stats.rename(columns=rename_dict)
 strs_stats.index.name = "Strategies/Factors"
 strs_stats.columns.name = "Statistics"
 strs_stats.iloc[:, 1:8] = 100 * strs_stats.iloc[:, 1:8]
-strs_stats = strs_stats.round(2)
+strs_stats = strs_stats.round(4)
 strs_stats_table = AgGrid(rowData=strs_stats.iloc[:, :-1].reset_index().to_dict('records'),
                           columnDefs=[{'field': col} for col in strs_stats.reset_index().columns[1:-1]] +
                                      [{'field': strs_stats.reset_index().columns[0], 'pinned': 'left',

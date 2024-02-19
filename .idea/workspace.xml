@@ -4,31 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="completamento codice e app">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/output/alpha.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/output/alpha_com.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/output/benchmark_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/output/ports.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/output/rtn.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/output/rtn_com.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/output/strs_res_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finale_tmp.ipynb" afterDir="false" />
+    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="fixing">
+      <change beforePath="$PROJECT_DIR$/.idea/progetto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/progetto.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_raw.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_initial.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_raw_extraction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataset_extraction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finale.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/finale.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parte_6.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parte_6_copy.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parte_due.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parte_due_copy.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parte_tre.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parte_tre_copy.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parte_uno.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parte_uno_copy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/alpha.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/alpha.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/alpha_com.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/alpha_com.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/benchmark_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/benchmark_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/ports.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/ports.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/rtn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/rtn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/rtn_com.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/rtn_com.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/strs_res_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/strs_res_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/final.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Altri computer/Il mio computer/magistrale/1°anno/2° Semestre/Financial Market Analytics/progetto/progetto&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/appunti/magistrale/1°anno/2° Semestre/Financial Market Analytics/progetto/progetto&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -76,7 +63,6 @@
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="progetto" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -140,6 +126,10 @@
     <MESSAGE value="realizzazione zscore pesata, e i ratei, e il riskfree" />
     <MESSAGE value="aggregazioni risultati strategie" />
     <MESSAGE value="completamento codice e app" />
-    <option name="LAST_COMMIT_MESSAGE" value="completamento codice e app" />
+    <MESSAGE value="implementazione ordinamento strategie" />
+    <MESSAGE value="fix shift e preparazione codice completata" />
+    <MESSAGE value="add docs" />
+    <MESSAGE value="fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing" />
   </component>
 </project>
