@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="consegna">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/Report.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/NACC_state.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/RSI_state.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/WCE_state.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/bench_crtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/bench_lrtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/bench_stats.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/muli_info_ratio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/multi_ac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/multi_stats.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/sequential_state.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/uni_a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/uni_ac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/uni_info_ratio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/uni_stats.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/zscore_simple_state.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/plot/zscore_weighted_state.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relazione/report.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +55,7 @@
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="progetto" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
