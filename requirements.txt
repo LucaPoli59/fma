@@ -1,0 +1,9 @@
+pandas~=1.5.3
+plotly~=5.9.0
+dash~=2.11.1
+dash-bootstrap-components
+dash-ag-grid
+numba
+scipy
+pandas_datareader
+numpy
