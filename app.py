@@ -1,4 +1,5 @@
 from dash import html, Dash, dcc, callback, Input, Output, Patch, dash_table
+from whitenoise import WhiteNoise
 import dash_bootstrap_components as dbc
 from dash_ag_grid import AgGrid
 import pandas as pd
@@ -14,6 +15,7 @@ app = Dash(__name__,
            meta_tags=[{'name': 'viewport', 'content': 'width=device-width, initial-scale=1.0'}],
            suppress_callback_exceptions=True)
 server = app.server
+server.wsgi_app = WhiteNoise(server.wsgi_app, root='static/')
 
 with open(os.path.join(OUTPUT_PATH, 'ports.pkl'), 'rb') as file:
     ports = pickle.load(file)
