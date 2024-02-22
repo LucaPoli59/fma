@@ -3,6 +3,6 @@ dash_ag_grid==31.0.1
 dash_bootstrap_components==1.4.1
 pandas==1.5.3
 plotly==5.9.0
+whitenoise==6.6.0
 gunicorn
 dash-tools
-whitenoise
