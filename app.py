@@ -13,6 +13,7 @@ app = Dash(__name__,
            external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP],
            meta_tags=[{'name': 'viewport', 'content': 'width=device-width, initial-scale=1.0'}],
            suppress_callback_exceptions=True)
+server = app.server
 
 with open(os.path.join(OUTPUT_PATH, 'ports.pkl'), 'rb') as file:
     ports = pickle.load(file)
