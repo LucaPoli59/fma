@@ -7,3 +7,4 @@ numba
 scipy
 pandas_datareader
 numpy
+gunicorn
