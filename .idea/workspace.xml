@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="heroku deployment p8">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-    </list>
+    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="heroku deployment p9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +124,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="commit di tutti i file del gruppo" />
     <MESSAGE value="aggregazione delle parti nel main" />
     <MESSAGE value="realizzazione zscore pesata, e i ratei, e il riskfree" />
@@ -152,6 +148,7 @@
     <MESSAGE value="heroku deployment p6" />
     <MESSAGE value="heroku deployment p7" />
     <MESSAGE value="heroku deployment p8" />
-    <option name="LAST_COMMIT_MESSAGE" value="heroku deployment p8" />
+    <MESSAGE value="heroku deployment p9" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku deployment p9" />
   </component>
 </project>
