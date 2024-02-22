@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/offline_plot.ipynb" afterDir="false" />
+    <list default="true" id="b181cb9f-bdfa-4a06-8de2-4f0c31268c7c" name="Changes" comment="heroku deployment p2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/alpha.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/alpha.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/alpha_com.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/alpha_com.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/benchmark_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/benchmark_stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/multivariate_input.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/multivariate_input.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/ports.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/ports.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/rtn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/rtn.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/rtn_com.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/rtn_com.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/strs_res_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/strs_res_stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relazione/Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/relazione/Report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relazione/plot/bench_stats.png" beforeDir="false" afterPath="$PROJECT_DIR$/relazione/plot/bench_stats.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relazione/plot/muli_info_ratio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relazione/plot/multi_ac.png" beforeDir="false" afterPath="$PROJECT_DIR$/relazione/plot/multi_ac.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relazione/plot/multi_stats.png" beforeDir="false" afterPath="$PROJECT_DIR$/relazione/plot/multi_stats.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relazione/plot/sequential_state.png" beforeDir="false" afterPath="$PROJECT_DIR$/relazione/plot/sequential_state.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relazione/plot/uni_a.png" beforeDir="false" afterPath="$PROJECT_DIR$/relazione/plot/uni_a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relazione/plot/uni_ac.png" beforeDir="false" afterPath="$PROJECT_DIR$/relazione/plot/uni_ac.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relazione/plot/uni_info_ratio.png" beforeDir="false" afterPath="$PROJECT_DIR$/relazione/plot/uni_info_ratio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relazione/plot/uni_stats.png" beforeDir="false" afterPath="$PROJECT_DIR$/relazione/plot/uni_stats.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relazione/report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/relazione/report.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +37,7 @@
     &quot;Python.app.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/appunti/magistrale/1°anno/2° Semestre/Financial Market Analytics/progetto/progetto&quot;,
@@ -156,6 +136,12 @@
     <MESSAGE value="fixed alpha error" />
     <MESSAGE value="consegna" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="finale" />
+    <MESSAGE value="requirements.txt" />
+    <MESSAGE value="plot mancante" />
+    <MESSAGE value="fixes" />
+    <MESSAGE value="heroku deployment" />
+    <MESSAGE value="heroku deployment p2" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku deployment p2" />
   </component>
 </project>

@@ -1,10 +1,7 @@
-pandas~=1.5.3
-plotly~=5.9.0
-dash~=2.11.1
-dash-bootstrap-components
-dash-ag-grid
-numba
-scipy
-pandas_datareader
-numpy
+dash==2.11.1
+dash_ag_grid==31.0.1
+dash_bootstrap_components==1.4.1
+pandas==1.5.3
+plotly==5.9.0
 gunicorn
+dash-tools
